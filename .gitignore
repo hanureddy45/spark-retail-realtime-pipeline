@@ -1,2 +1,5 @@
-application.conf
+# Ignore the compiled output directory
 target/
+
+# Ignore secret config file in any folder (safe, flexible)
+**/application.conf
