@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>project_demo_id</groupId>
+  <artifactId>project_demo_id</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>project_demo_id</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   
+   
+     <scala.version>2.11.12</scala.version>
+    <spark.version>2.4.7</spark.version>
+    <hadoop.version>2.6.5</hadoop.version>
+    <aws.sdk.version>1.11.375</aws.sdk.version>
+   
+   
+   
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    
+    <!-- Spark Core Dependency -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.4.7</version>
+        </dependency>
+        
+        <!-- Spark SQL Dependency -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.4.7</version>
+        </dependency>
+        
+        
+        <dependency>
+    <groupId>com.typesafe</groupId>
+    <artifactId>config</artifactId>
+    <version>1.4.3</version>
+</dependency>
+
+<dependency>
+  <groupId>log4j</groupId>
+  <artifactId>log4j</artifactId>
+  <version>1.2.17</version>
+</dependency>
+    
+    
+ <dependency>
+  <groupId>net.snowflake</groupId>
+  <artifactId>snowflake-jdbc</artifactId>
+  <version>3.13.29</version>
+</dependency>
+
+<dependency>
+  <groupId>net.snowflake</groupId>
+  <artifactId>spark-snowflake_2.11</artifactId>
+  <version>2.9.0-spark_2.4</version>
+</dependency>
+ 
+  
+</dependencies>
+
+
+
+
+
+
+
+
+
+</project>
